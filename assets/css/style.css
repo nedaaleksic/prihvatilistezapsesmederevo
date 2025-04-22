@@ -1,0 +1,614 @@
+/* boja za isticanje: #FF734D */
+/* pozadinska boja: #FFF4D2 */
+/* boja za slova: #5d441f */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.cleaner {
+    clear: both;
+}
+header {
+	width:100%;
+	background-color:#FFF4D2;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+nav {
+	
+	display:flex;
+	justify-content:space-around;
+}
+#logo {
+	padding-bottom:9px;
+	padding-top:20px;
+	transition:transform 0.5s ease;
+}
+#logo:hover {
+	transform: scale(1.05);
+}
+nav ul {
+	list-style:none;
+	display:flex;
+	align-items:center;
+}
+nav ul li {
+	display:inline;
+}
+nav ul li a {
+	text-decoration:none;
+	font-family:'Poppins', sans-serif;
+	color:#5d441f;
+	font-size:25px;
+	padding-left:50px;
+}
+nav ul li a:hover{
+    font-weight: bold;
+	color:#FF734D;
+}
+.trenutno {
+	font-weight: bold;
+	color:#FF734D;
+}
+#banner {
+	background-image:url("../img/banner.jpg");
+	width:100%; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#banner-content {
+	background:rgba(0,0,0,0.6);
+    width:100%;
+    height: inherit;
+    padding: 21% 0%;
+    padding-top:15%;
+    text-align:center;
+    color:#FFAE73;
+}
+#banner-content h1, h2{
+	font-family: 'Fira Sans', sans-serif;
+}
+#banner-content h1{
+	font-size:75px;
+	color:#FF734D;
+	position: relative;
+	animation: desnaanimacija 1.7s;
+}
+#banner-content h2{
+	padding-top: 20px;
+	font-size:45px;
+	color:#FFF4D2;
+	position: relative;
+	animation: levaanimacija 1.7s;
+}
+a {
+	text-decoration:none;
+	font-size:25px;
+	font-family:'Poppins', sans-serif;
+}
+p,ul {
+	font-family:'Poppins', sans-serif;
+	font-size:25px;
+}
+#main1 h2{
+	color: #FF734D;
+	font-weight:3px;
+	font-size:45px;
+	font-family:'Poppins', sans-serif;
+	text-align:center;
+	padding-top:50px;
+}
+#main1 p, #kontaktpodaci1 p {
+	color:#5d441f;
+}
+#belo1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	background-color:white;
+	padding-top:30px;
+	padding-bottom:50px;
+	margin-left:50px;
+	margin-right:50px;
+}
+#belo1 img, #oautoru img {
+	height:500px;
+	border-radius:40px;
+	filter:drop-shadow(0px 0px 5px #5d441f);
+}
+.o-prihvatilistu, #kupanje p, #tekstautor {
+	width:40%;
+}
+#belo2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	background-color:white;
+	padding-bottom:50px;
+	margin-left:50px;
+	margin-right:50px;
+}
+#belo2 img {
+	height:500px;
+	border-radius:40px;
+	filter:drop-shadow(0px 0px 5px #5d441f);
+	position: relative;
+	animation: desnaanimacija 1.7s;
+}
+#boja1, #sapica, #oautoru{
+	background-color:#FFF4D2;
+	display:flex;
+	justify-content:space-around;
+}
+#boja1 .poseta1, .poseta2 { 
+	padding-top:30px;
+	padding-bottom:50px;
+	text-align:center;
+}
+#belo3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	background-color:white;
+	padding-top:30px;
+	padding-bottom:50px;
+	margin-left:50px;
+	margin-right:50px;
+}
+#belo3 img {
+	height:500px;
+	border-radius:40px;
+	filter:drop-shadow(0px 0px 5px #5d441f);
+	position: relative;
+	animation: levaanimacija 1.7s;
+}
+#belo1 .o-prihvatilistu, #belo3 .o-prihvatilistu  {
+	position: relative;
+	animation: desnaanimacija 1.7s;
+}
+#belo2 .o-prihvatilistu,#belo1 img {
+	position: relative;
+	animation: levaanimacija 1.7s;
+}
+/* CSS kako-pomoci.html */
+
+#banner1 {
+	background-image:url("../img/kakopomoci.jpg");
+	width:100%; 
+	height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+#banner-content1 {
+	background:rgba(0,0,0,0.6);
+    width:100%;
+    height: inherit;
+    text-align:center;
+    color:#FFAE73;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+}
+#banner-content1 h1, h2{
+	font-family: 'Fira Sans', sans-serif;
+}
+#banner-content1 h1{
+	font-size:75px;
+	color:#FF734D;
+	position: relative;
+	animation: desnaanimacija 1.7s;
+}
+#banner-content1 h2{
+	padding-top: 20px;
+	font-size:35px;
+	color:#FFF4D2;
+	position: relative;
+	animation: levaanimacija 1.7s;
+}
+#main2 p, a, ul,#main3 p {
+	color:#5d441f;
+}
+#main2 #doniraj a,#kakoudomiti a {
+	text-decoration:underline;
+}
+#main2 #doniraj a:hover, #kakoudomiti a:hover, #podaci a:hover {
+    font-weight: bold;
+	color:#FF734D;
+} 
+#main2 #donacije, #udomljavanje,#kakoudomiti{
+	align-items: center;
+	background-color:white;
+	padding-top:30px;
+	padding-bottom:50px;
+	margin-left:105px;
+	margin-right:105px; 
+}
+#main2 #doniraj h2 {
+	color: #FF734D;
+	font-weight:3px;
+	font-size:45px;
+	font-family:'Poppins', sans-serif;
+	text-align:center;
+	padding-top:50px;
+}
+#doniraj {
+	padding-bottom:50px;
+}
+#slike1 {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	margin-left:105px;
+	margin-right:105px; 
+	border-top: 1px solid #FF734D;
+	margin-bottom:50px;
+}
+#slike1 img {
+	width:23%;
+	height:250px;
+	border-radius:40px;
+	filter:drop-shadow(0px 0px 5px #5d441f);
+	margin-top:30px;
+	transition:transform 0.5s ease;
+}
+#slike1 img:hover, #slicice img:hover {
+	transform: scale(1.05);
+}
+#hvala {
+	text-align:center;
+}
+#volontiraj, #kupanje, #autor {
+	background-color:#FFF4D2;
+	padding-top:50px;
+}
+#volontiraj h2, #kupanje h2 {
+	color: #FF734D;
+	font-weight:3px;
+	font-size:45px;
+	font-family:'Poppins', sans-serif;
+	text-align:center;
+}
+#volontiranje, #sapica {
+	align-items: center;
+	padding-top:30px;
+	padding-bottom:50px;
+	margin-left:105px;
+	margin-right:105px; 
+}
+#volontiranje h3,#main3 h3, .poseta1 h3, .poseta2 h3 {
+	color: #FF734D;
+	font-weight:3px;
+	font-size:30px;
+	font-family:'Poppins', sans-serif;
+	padding-top:30px;
+}
+.poseta1 {
+	width:30%;
+	position: relative;
+	animation: desnaanimacija 1.7s;
+}
+.poseta2 {
+	width:30%;
+	position: relative;
+	animation: levaanimacija 1.7s;
+}
+#volontiraj ul, #kakoudomiti ul {
+	padding-left: 70px;
+}
+#udomi h2 {
+	color: #FF734D;
+	font-weight:3px;
+	font-size:45px;
+	font-family:'Poppins', sans-serif;
+	text-align:center;
+}
+#udomi,#kakoudomiti {
+	padding-top:50px;
+}
+#udomipsaslika {
+	background-image:url("../img/udomi.jpg");
+	width:100%; 
+	height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+}
+#crno {
+	background:rgba(0,0,0,0.6);
+    width:100%;
+    height: inherit;
+    text-align:center;
+    color:#FFAE73;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+#crno h2 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size:55px;
+	color:#FF734D;
+}
+#crno a {
+	border: none;
+	color:#FF734D;
+	background-color:#FFF4D2;
+	font-family:'Poppins', sans-serif;
+	font-size:25px;
+	margin-top:30px;
+	width:20%;
+	border-radius:20px;
+	height:45px;
+	padding-top:7.5px;
+}
+#crno a:hover {
+	font-weight: bold;
+}
+/* FORMA */
+form p {
+	padding-top:30px;
+}
+form .option {
+	font-family:'Poppins', sans-serif;
+	font-size:20px;
+	color:#5d441f;
+}
+input[type="text"],input[type="tel"],input[type="email"], textarea {
+	border: 2px solid #5d441f;
+	border-radius:20px;
+	font-size:20px;
+	padding: 7px 7px 7px 10px;
+	font-family:'Poppins', sans-serif;
+	color:#5d441f;
+}
+input:focus, textarea:focus {
+  outline: 0;
+  border-color:#FF734D;
+}
+input[type="submit"],input[type="reset"]{
+	border:none;
+	color:white;
+	background-color:#FF734D;
+	font-family:'Poppins', sans-serif;
+	font-size:25px;
+	margin-top:30px;
+	width:20%;
+	border-radius:20px;
+	height:45px;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+	font-weight: bold;
+}
+input[type="reset"]{
+	margin-left:20px;
+}
+textarea {
+	resize: none;
+	height: 200px;
+	width:100%;
+}
+input[type="text"],input[type="tel"],input[type="email"] {
+	height:40px;
+	width:30%;
+}
+.option input[type="checkbox"] {
+	height: 20px;
+	width:20px;
+	border-radius: 10px;
+}
+/* CSS udomi.html */
+
+#banner2 {
+	background-image:url("../img/udomiti.jpg");
+	width:100%; 
+	height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+#banner-content2,#banner-content3 {
+	background:rgba(0,0,0,0.6);
+    width:100%;
+    height: inherit;
+    text-align:center;
+    color:#FFAE73;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+}
+#banner-content2 h1, h2,#banner-content3 h1,h2{
+	font-family: 'Fira Sans', sans-serif;
+}
+#banner-content2 h1,#banner-content3 h1{
+	font-size:75px;
+	color:#FF734D;
+	position: relative;
+	animation: desnaanimacija 1.7s;
+}
+#banner-content2 h2, #banner-content3 h2{
+	padding-top: 20px;
+	font-size:35px;
+	color:#FFF4D2;
+	position: relative;
+	animation: levaanimacija 1.7s;
+}
+#kupanje img {
+	height:400px;
+	border-radius:40px;
+	filter:drop-shadow(0px 0px 5px #5d441f);
+}
+#sapica p {
+	position: relative;
+	animation: desnaanimacija 1.7s;
+}
+#sapica img {
+	position: relative;
+	animation: levaanimacija 1.7s;
+}
+/* CSS GALERIJA */
+#banner3 {
+	background-image:url("../img/galerija.jpg");
+	width:100%; 
+	height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+.prvired, .drugired, .trecired {
+	padding-top:50px;
+	margin-left:105px;
+	margin-right:105px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+.prvired img, .drugired img, .trecired img{
+	height:325px;
+	border-radius:40px;
+	filter:drop-shadow(0px 0px 5px #5d441f);
+	width:27%;
+	transition:transform 0.5s ease;
+}
+#slicice {
+	background-color:#FFF4D2;
+	width:100%;
+}
+.trecired {
+	padding-bottom:50px;
+}
+/* CSS KONTAKT */
+#banner4 {
+	background-image:url("../img/raznipsi.jpg");
+	width:100%; 
+	height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+#kontaktpodaci{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	margin-left:105px;
+	margin-right:105px;
+	padding-top:50px;
+	padding-bottom:30px;
+}
+#kontaktpodaci1 {
+	background-color:#FFF4D2;
+	width:100%;
+	padding-top:50px;
+}
+iframe {
+	border-radius:40px;
+	filter:drop-shadow(0px 0px 5px #5d441f);
+	position: relative;
+	animation: levaanimacija 1.7s;
+}
+#kontaktpodaci1 form {
+	margin-left:105px;
+	margin-right:105px;
+	padding-bottom:50px;
+}
+#vazno p{
+	margin-left:105px;
+	margin-right:105px;
+}
+ #podaci {
+	position: relative;
+	animation: desnaanimacija 1.7s;
+ }
+ 
+/* CSS o-autoru.html */
+#banner5 {
+	background-image:url("../img/banner.jpg");
+	width:100%; 
+	height:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+#oautoru h3 {
+	text-align:center;
+}
+#oautoru {
+	align-items: center;
+	padding-bottom:50px;
+	margin-left:105px;
+	margin-right:105px; 
+}
+ #autor h3 {
+	color: #FF734D;
+	font-weight:3px;
+	font-size:30px;
+	font-family:'Poppins', sans-serif;
+ }
+ #oautoru img {
+	position: relative;
+	animation: desnaanimacija 1.7s;
+ }
+ #tekstautor {
+	position: relative;
+	animation: levaanimacija 1.7s;
+ }
+ /* FOOTER */
+ footer {
+	background-color: #5d441f;
+	display:flex;
+	justify-content:space-around;
+	padding-top:20px;
+	padding-bottom:20px;
+	flex-direction:row;
+
+ }
+ footer p {
+	color:#FFF4D2;
+	border-bottom: 1px solid #FF734D;
+	padding-bottom:15px;
+	font-size:20px;
+ }
+ footer ul {
+	padding-top:5px;
+	list-style-type:none;
+	text-align:center;
+ }
+ footer ul a {
+	color: #FFF4D2;
+	font-size:20px;
+	text-align:center;
+ }
+ footer ul a:hover{
+    font-weight: bold;
+	color:#FF734D;  
+}
+footer #rsssitemap ul li {
+	color:#FFF4D2;
+}
+footer img {
+	float:center;
+}
+footer i {
+	font-size:30px;
+	padding-top:15px;
+}
+
+/* ANIMACIJE */
+@keyframes desnaanimacija{
+	0% {right:670px;}
+	100% {right:0px;}
+}
+@keyframes levaanimacija{
+	0% {left:670px;}
+	100% {left:0px;}
+}
